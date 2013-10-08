@@ -1,0 +1,11 @@
+﻿<Application x:Class="LeBonCoinReader.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+
+        <BitmapImage x:Key="logo" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="c:\Users\Florian\Documents\Visual Studio 2012\Projects\LeBonCoinReader\LeBonCoinReader\logo.png"/>
+        <BitmapImage x:Key="NoImage" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="c:\Users\Florian\Documents\Visual Studio 2012\Projects\LeBonCoinReader\LeBonCoinReader\no-image.png"/>
+
+    </Application.Resources>
+</Application>
